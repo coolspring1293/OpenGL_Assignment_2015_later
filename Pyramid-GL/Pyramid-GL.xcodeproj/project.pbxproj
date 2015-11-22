@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6EDBE51C0221A9000F5DEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA6EDBE41C0221A9000F5DEF /* main.cpp */; };
+		CA6EDBEC1C0221BC000F5DEF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6EDBEB1C0221BC000F5DEF /* GLUT.framework */; };
+		CA6EDBEE1C0221C2000F5DEF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6EDBED1C0221C2000F5DEF /* OpenGL.framework */; };
+		CA6EDBF61C02363A000F5DEF /* gltools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA6EDBF31C02363A000F5DEF /* gltools.cpp */; };
+		CA6EDBF71C02363A000F5DEF /* math3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA6EDBF51C02363A000F5DEF /* math3d.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA6EDBDF1C0221A9000F5DEF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA6EDBE11C0221A9000F5DEF /* Pyramid-GL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pyramid-GL"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6EDBE41C0221A9000F5DEF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CA6EDBEB1C0221BC000F5DEF /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CA6EDBED1C0221C2000F5DEF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CA6EDBF21C02363A000F5DEF /* gltools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gltools.h; sourceTree = "<group>"; };
+		CA6EDBF31C02363A000F5DEF /* gltools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gltools.cpp; sourceTree = "<group>"; };
+		CA6EDBF41C02363A000F5DEF /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		CA6EDBF51C02363A000F5DEF /* math3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math3d.cpp; sourceTree = "<group>"; };
+		CA6EDBF81C023B39000F5DEF /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6EDBDE1C0221A9000F5DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6EDBEE1C0221C2000F5DEF /* OpenGL.framework in Frameworks */,
+				CA6EDBEC1C0221BC000F5DEF /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6EDBD81C0221A9000F5DEF = {
+			isa = PBXGroup;
+			children = (
+				CA6EDBED1C0221C2000F5DEF /* OpenGL.framework */,
+				CA6EDBEB1C0221BC000F5DEF /* GLUT.framework */,
+				CA6EDBE31C0221A9000F5DEF /* Pyramid-GL */,
+				CA6EDBE21C0221A9000F5DEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6EDBE21C0221A9000F5DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6EDBE11C0221A9000F5DEF /* Pyramid-GL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6EDBE31C0221A9000F5DEF /* Pyramid-GL */ = {
+			isa = PBXGroup;
+			children = (
+				CA6EDBF81C023B39000F5DEF /* stone.tga */,
+				CA6EDBF21C02363A000F5DEF /* gltools.h */,
+				CA6EDBF31C02363A000F5DEF /* gltools.cpp */,
+				CA6EDBF41C02363A000F5DEF /* math3d.h */,
+				CA6EDBF51C02363A000F5DEF /* math3d.cpp */,
+				CA6EDBE41C0221A9000F5DEF /* main.cpp */,
+			);
+			path = "Pyramid-GL";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6EDBE01C0221A9000F5DEF /* Pyramid-GL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6EDBE81C0221A9000F5DEF /* Build configuration list for PBXNativeTarget "Pyramid-GL" */;
+			buildPhases = (
+				CA6EDBDD1C0221A9000F5DEF /* Sources */,
+				CA6EDBDE1C0221A9000F5DEF /* Frameworks */,
+				CA6EDBDF1C0221A9000F5DEF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pyramid-GL";
+			productName = "Pyramid-GL";
+			productReference = CA6EDBE11C0221A9000F5DEF /* Pyramid-GL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6EDBD91C0221A9000F5DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kieran Will";
+				TargetAttributes = {
+					CA6EDBE01C0221A9000F5DEF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CA6EDBDC1C0221A9000F5DEF /* Build configuration list for PBXProject "Pyramid-GL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA6EDBD81C0221A9000F5DEF;
+			productRefGroup = CA6EDBE21C0221A9000F5DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6EDBE01C0221A9000F5DEF /* Pyramid-GL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6EDBDD1C0221A9000F5DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6EDBF61C02363A000F5DEF /* gltools.cpp in Sources */,
+				CA6EDBF71C02363A000F5DEF /* math3d.cpp in Sources */,
+				CA6EDBE51C0221A9000F5DEF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA6EDBE61C0221A9000F5DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA6EDBE71C0221A9000F5DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA6EDBE91C0221A9000F5DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA6EDBEA1C0221A9000F5DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6EDBDC1C0221A9000F5DEF /* Build configuration list for PBXProject "Pyramid-GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6EDBE61C0221A9000F5DEF /* Debug */,
+				CA6EDBE71C0221A9000F5DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6EDBE81C0221A9000F5DEF /* Build configuration list for PBXNativeTarget "Pyramid-GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6EDBE91C0221A9000F5DEF /* Debug */,
+				CA6EDBEA1C0221A9000F5DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6EDBD91C0221A9000F5DEF /* Project object */;
+}
